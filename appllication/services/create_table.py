@@ -1,7 +1,7 @@
-from appllication.services import DBConnection
+from appllication.services.db_connection import DBConnection
 
 
-def create_table():
+def phone_table():
     with DBConnection() as connection:  # we creat connection and return it trough context manager
         with connection:  # context manager for connection for possible changes of the data
             ## table creation , if it isn't exist'

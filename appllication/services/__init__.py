@@ -1,2 +1,2 @@
-from .create_table import create_table
+from .create_table import phone_table
 from .db_connection import DBConnection
